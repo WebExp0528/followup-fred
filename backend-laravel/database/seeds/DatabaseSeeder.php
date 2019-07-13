@@ -26,17 +26,17 @@ class DatabaseSeeder extends Seeder
             'id' => 1,
             'name' => 'Test user',
             'timezone' => "America/Argentina/Buenos_Aires",
-            'email' => 'goldtime0723@gmail.com'
+            'email' => '@gmail.com'
         ]);
         DB::table('auth_tokens')->insert([
             'id' => 1,
             'access_token' => 'ya29.GlsQB-klYlbiXwC14CuH0I0Oz3LMTB7uq9fZoywmQ8WAX6LIONeHNNzsbQiUVm6wj7BMndQZk1XpJ9a_N7g4BVkUr1SQhZpOhWiLhaWC7Cmy9i6fuEWc1tCh_saT',
             'refresh_token' => '1/MPuU8KDOLjFU1wuhm6PnHNn9suC7qqvVFMZA2RTS5iVItBJOgMQ7k4IrzBjT3tOD',
-            'email' => 'goldtime0723@gmail.com'
+            'email' => '@gmail.com'
         ]);
         DB::table('emails')->insert([
             'id' => 1,
-            'to' => 'sebastiancor7218@gmail.com',
+            'to' => '@gmail.com',
             'subject' => 'Test subject',
             'body' => 'Test body'
         ]);

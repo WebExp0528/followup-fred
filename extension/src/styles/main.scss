@@ -1,0 +1,213 @@
+/**
+* dropdown menu style.
+*/
+
+.dd-menu-item {
+  padding: 6px 38px 6px 15px;
+  position: relative;
+  color: #333;
+  cursor: default;
+  vertical-align: middle;
+  text-align: left;
+  list-style-type: none;
+}
+
+.dd-menu-item:hover {
+  background-color: #c2e7ff;
+}
+
+.dd-menu-header {
+  height: 32px;
+}
+
+.dd-menu-item-img {
+  position: relative;
+  top: -1px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  opacity: 0.55;
+  vertical-align: middle;
+}
+
+.dd-menu-item-title {
+  line-height: 20px;
+  height: 20px;
+  padding: 0 6px 0 6px;
+  vertical-align: middle;
+  font-size: 1rem;
+}
+
+.dd-menu-des {
+  font-size: 0.85rem;
+  color: grey;
+}
+
+//dropdown menu header style
+.dd-menu-header .dd-menu-item-img {
+  position: relative;
+  top: -1px;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  opacity: 0.55;
+  vertical-align: middle;
+}
+
+.dd-menu-header .dd-menu-item-title {
+  line-height: 32px;
+  padding: 0 6px 0 6px;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+//followup dropdown menu
+.composeview-followup-dd .dd-menu-item-img {
+  float: right;
+  opacity: 1;
+}
+
+.composeview-followup-dd .dd-menu-item-title {
+  width: auto;
+  padding-right: 30px;
+  display: inline-block;
+}
+
+.composeview-followup-dd .dd-menu-item-title label {
+  width: 100%;
+  display: inline-block;
+}
+
+.composeview-followup-dd .dd-menu-header .dd-menu-item-title {
+  font-size: 18px;
+  display: contents;
+}
+
+.composeview-followup-dd .dd-menu-item {
+  padding: 6px 15px;
+}
+
+.composeview-followup-dd .dd-menu-item input {
+  margin-right: 5px;
+}
+
+.composeview-followup-dd .dd-menu-followup-attach.on {
+  text-align: center;
+  margin: 5px;
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 5px;
+}
+
+.composeview-followup-dd .dd-menu-followup-attach.on:hover {
+  background-color: #297be6;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.composeview-followup-dd .dd-menu-followup-attach.off {
+  text-align: center;
+  margin: 5px;
+  background-color: #ff0000;
+  color: white;
+  border-radius: 5px;
+}
+
+.composeview-followup-dd .dd-menu-followup-attach.off:hover {
+  background-color: #ff0000;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+//followup custom sequence
+.followup-custom-sequence {
+  border: 1px solid #a7a7a7;
+  padding: 5px 5px 5px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.followup-custom-sequence .img-right-arrow {
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 10px 0px 0px;
+}
+
+.followup-custom-sequence .followup-select-div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.followup-custom-sequence .followup-select-div input {
+  width: 100px;
+  height: 22px;
+  font-size: 15px;
+}
+
+.followup-custom-row {
+  padding: 5px 0px 5px 0px;
+}
+.followup-custom-row div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.followup-custom-sequence datalist {
+  max-height: 80px !important;
+  overflow-y: auto !important;
+}
+
+//Dropdown Tooltip
+.dd-menu-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.dd-menu-tooltip .dd-menu-tooltiptext {
+  visibility: hidden;
+  display: block;
+  width: max-content;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 100;
+  top: -3px;
+  right: 115%;
+  font-size: 15px;
+}
+
+.dd-menu-tooltip .dd-menu-tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  /* To the right of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent black;
+}
+
+.dd-menu-tooltip:hover .dd-menu-tooltiptext {
+  visibility: visible;
+}
+
+//Side Panel
+.followupfred-btn-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+}
+#followupfred_btn_SidePanel {
+  margin-left: 5px;
+}

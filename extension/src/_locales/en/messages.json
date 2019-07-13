@@ -1,0 +1,10 @@
+{
+    "extName": {
+        "message": "Followup-fred",
+        "description": "Extension name"
+    },
+    "extDesc": {
+        "message": "This is Followup-fred extension",
+        "description": "Extension description"
+    }
+}
